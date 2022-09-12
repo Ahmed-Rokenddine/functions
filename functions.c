@@ -42,8 +42,11 @@ printf("hello my name is : %s",name);
                }
             printf("\n");
             
-         } 
+         
          }
+         L=L+2;  
+         } 
+
          
          return L, T;
      }
@@ -80,8 +83,9 @@ int i,h,j,k,L,t;
                   printf("* ");
                }
             printf("\n");
+         
          } 
-        
+      L=L+2; 
      }
       
  }
